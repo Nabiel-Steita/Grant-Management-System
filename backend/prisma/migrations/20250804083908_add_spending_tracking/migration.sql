@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "BudgetSubtitle" ADD COLUMN     "spent" DOUBLE PRECISION NOT NULL DEFAULT 0,
+ADD COLUMN     "spentDate" TIMESTAMP(3);
